@@ -4655,516 +4655,7 @@ p <- ggplot(performance, aes(x = Lambda, y = RMSE)) +#
 p <- ggplotly(p)#
 #
 p
-library('glmne')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)
-setwd('Desktop/20171129/irow/')
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests linetype = Data)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = request, linetype = Data)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-requests.plot <- ggplot(requests, aes(x = date, y = requests, linetype = Data)) +
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests, linetype = Data)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests, linetype = date)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests, color = Blue)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests, color = Plant)) +#
-    geom_point() +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-    geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-    geom_point + #
-    geom_line()#
-#
-plot(requests.plot)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point +#
-  geom_line()#
-#
-plot(requests.plot)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-plot(requests.plot)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-requests <- read(resuests))#
-#
-print(requests)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-requests <- as.dataframe(resuests))#
-#
-print(requests)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-requests <- as.data.frame(resuests))#
-#
-print(requests)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-requests <- as.data.frame(requests)#
-#
-print(requests)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-unzip <- function(...) rbind(data.frame(), ...)#
-requests.frame <- do.call(unzip, requests)#
-#
-print(requests)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-unzip <- function(...) rbind(data.frame(), ...)#
-requests.frame <- do.call(unzip, requests)#
-#
-print(requests.frame)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-unzip <- function(...) rbind(data.frame(), ...)#
-requests.frame <- do.call(unzip, requests)#
-#
-print(requests.frame)#
-#
-typeof(requests.frame)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests[1,0])#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests[1,0])#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-print(requests[,1])#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-requests <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests[,1])#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests[,1])#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-typeof(requests)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-typeof(requests.frame)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
+scale_x_discrete(breaks = seq(by = 1))
 library('glmnet')#
 library('ggplot2')#
 library('plotly')#
@@ -5179,12 +4670,14 @@ print(requests.frame)#
 is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line()#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
 requests.plot
+getwd('data-analysis/')
+setwd('data-analysis/')
 library('glmnet')#
 library('ggplot2')#
 library('plotly')#
@@ -5199,12 +4692,14 @@ print(requests.frame)#
 is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(clour = "magenta", linetype = 2, size = 3)#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
 requests.plot
+getwd()
+ls
 library('glmnet')#
 library('ggplot2')#
 library('plotly')#
@@ -5219,8 +4714,8 @@ print(requests.frame)#
 is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", linetype = 2, size = 3)#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
@@ -5229,7 +4724,7 @@ library('glmnet')#
 library('ggplot2')#
 library('plotly')#
 #
-requests <- read.csv('request.csv')#
+requests <- read.csv('news_request.csv')#
 #
 # データフレーム型を作成#
 requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
@@ -5239,7 +4734,8 @@ print(requests.frame)#
 is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(colour = "magenta", linetype = 2, size = 3)#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
@@ -5248,7 +4744,7 @@ library('glmnet')#
 library('ggplot2')#
 library('plotly')#
 #
-requests <- read.csv('request.csv')#
+requests <- read.csv('blogs_request.csv')#
 #
 # データフレーム型を作成#
 requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
@@ -5258,7 +4754,8 @@ print(requests.frame)#
 is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(colour = "magenta", linetype = 2, size = 3)#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
@@ -5267,7 +4764,7 @@ library('glmnet')#
 library('ggplot2')#
 library('plotly')#
 #
-requests <- read.csv('request.csv')#
+requests <- read.csv('blogs_request.csv')#
 #
 # データフレーム型を作成#
 requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
@@ -5277,8 +4774,8 @@ print(requests.frame)#
 is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", linetype = 2, size = 3)#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  # scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
@@ -5287,87 +4784,7 @@ library('glmnet')#
 library('ggplot2')#
 library('plotly')#
 #
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests, linetype = 2)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests, linetype = Data)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests, linetype = requests.frame)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests, linetype = date)) +#
-  geom_point() +#
-  geom_line()#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
+requests <- read.csv('blogs_request.csv')#
 #
 # データフレーム型を作成#
 requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
@@ -5377,8 +4794,8 @@ print(requests.frame)#
 is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", linetype = date, size = 3)#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  # scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
@@ -5387,264 +4804,7 @@ library('glmnet')#
 library('ggplot2')#
 library('plotly')#
 #
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", linetype = date, size = 3)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", linetype = 1, size = 3)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", linetype = requests, size = 3)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests, linetype = requests)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", size = 3)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests, linetype = date)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", size = 3)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests, group = date)) +#
-  geom_point() +#
-  geom_line(colour = "magenta", size = 3, linetype = date)#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(aes(group=1))#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(aes(group=1)) # aes(group=1)がないと折れ線グラフが表示されない#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(aes(group=1)) # aes(group=1)がないと折れ線グラフが表示されない#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_point() +#
-  geom_line(aes(group=1), color = 'blue') # aes(group=1)がないと折れ線グラフが表示されない#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(aes(group=1), color = 'blue', size = 3) # aes(group=1)がないと折れ線グラフが表示されない#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(aes(group=1), color = 'blue', size = 1) # aes(group=1)がないと折れ線グラフが表示されない#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(aes(group=1), colour = 'blue', size = 1) # aes(group=1)がないと折れ線グラフが表示されない#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
+requests <- read.csv('blogs_request.csv')#
 #
 # データフレーム型を作成#
 requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
@@ -5655,6 +4815,7 @@ is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
   geom_line(aes(group=1), colour = '#FF9999', size = 1) # aes(group=1)がないと折れ線グラフが表示されない#
+  # scale_x_discrete(breaks = seq(by = 1))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
@@ -5663,67 +4824,7 @@ library('glmnet')#
 library('ggplot2')#
 library('plotly')#
 #
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
-  theme(axis.text.x = element_text(hjust = 1))#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
-  theme(axis.text.x = element_text(hjust = 10))#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
-#
-# データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
-#
-print(requests.frame)#
-#
-is.data.frame(requests.frame)#
-#
-requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
-  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
-  scale_x_discrece(breaks = seq(by = 10))#
-#
-requests.plot <- ggplotly(requests.plot)#
-#
-requests.plot
-library('glmnet')#
-library('ggplot2')#
-library('plotly')#
-#
-requests <- read.csv('request.csv')#
+requests <- read.csv('blogs_request.csv')#
 #
 # データフレーム型を作成#
 requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
@@ -5743,10 +4844,10 @@ library('glmnet')#
 library('ggplot2')#
 library('plotly')#
 #
-requests <- read.csv('request.csv')#
+requests <- read.csv('blogs_request.csv')#
 #
 # データフレーム型を作成#
-requests.frame <- data.frame(date = requests[, 1], requests = requests[,2])#
+requests.frame <- data.frame(date = as_date(requests[, 1]), requests = requests[,2])#
 #
 print(requests.frame)#
 #
@@ -5754,7 +4855,47 @@ is.data.frame(requests.frame)#
 #
 requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
   geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
-  scale_x_discrete(breaks = seq(by = 1))#
+  scale_x_discrete(breaks = seq(by = 10))#
+#
+requests.plot <- ggplotly(requests.plot)#
+#
+requests.plot
+library('glmnet')#
+library('ggplot2')#
+library('plotly')#
+#
+requests <- read.csv('blogs_request.csv')#
+#
+# データフレーム型を作成#
+requests.frame <- data.frame(date = as.date(requests[, 1]), requests = requests[,2])#
+#
+print(requests.frame)#
+#
+is.data.frame(requests.frame)#
+#
+requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  scale_x_discrete(breaks = seq(by = 10))#
+#
+requests.plot <- ggplotly(requests.plot)#
+#
+requests.plot
+library('glmnet')#
+library('ggplot2')#
+library('plotly')#
+#
+requests <- read.csv('blogs_request.csv')#
+#
+# データフレーム型を作成#
+requests.frame <- data.frame(date = as.Date(requests[, 1]), requests = requests[,2])#
+#
+print(requests.frame)#
+#
+is.data.frame(requests.frame)#
+#
+requests.plot <- ggplot(requests.frame, aes(x = date, y = requests)) +#
+  geom_line(aes(group=1), colour = '#FF9999', size = 1) + # aes(group=1)がないと折れ線グラフが表示されない#
+  scale_x_discrete(breaks = seq(by = 10))#
 #
 requests.plot <- ggplotly(requests.plot)#
 #
